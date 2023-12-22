@@ -1,5 +1,5 @@
 corp104_cron_exporter::download_url: "%{lookup('profile::base::vac02_http')}/webuse/monitor/cron_exporter-1.0.0.linux-amd64.tar.gz"
-corp104_cron_exporter::scrape_uri: ~
+corp104_cron_exporter::scrape_uri: ''
 corp104_cron_exporter::package_ensure: 'present'
 corp104_cron_exporter::package_name: 'cron_exporter'
 corp104_cron_exporter::service_ensure: 'running'
