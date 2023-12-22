@@ -3,11 +3,11 @@ corp104_cron_exporter::scrape_uri: ''
 corp104_cron_exporter::package_ensure: 'present'
 corp104_cron_exporter::package_name: 'cron_exporter'
 corp104_cron_exporter::service_ensure: 'running'
-corp104_cron_exporter::service_name: 'cron-exporter'
+corp104_cron_exporter::service_name: 'cron_exporter'
 corp104_cron_exporter::service_enable: true
 corp104_cron_exporter::extra_options: ~
 corp104_cron_exporter::install_method: 'url'
-corp104_cron_exporter::version: '1.0.0'
+corp104_cron_exporter::version: '1.1.0'
 corp104_cron_exporter::bin_dir: '/usr/local/bin'
 corp104_cron_exporter::http_proxy: ~
 corp104_cron_exporter::manage_user: true
